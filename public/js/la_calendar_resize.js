@@ -1,0 +1,1 @@
+document.head.children.namedItem("viewport").content = "width=device-width, initial-scale=1, maximum-scale=3.0, minimum-scale=1, user-scalable=yes";

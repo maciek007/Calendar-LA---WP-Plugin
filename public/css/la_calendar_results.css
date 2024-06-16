@@ -1,0 +1,22 @@
+.res_table caption {
+    color: #5d6881;
+}
+.res_table {
+    width: 100%;
+    margin: 50px 0;
+    table-layout: fixed;
+}
+.res_table th{
+    font-style: italic;
+    text-align: left;
+    padding: 20px;
+}
+table th:nth-child(1){
+    width: 20%;
+}
+.res_table th:nth-child(2){
+    width: 60%;
+}
+.res_table th:nth-child(3){
+    width: 20%;
+}

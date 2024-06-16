@@ -1,0 +1,51 @@
+.content_table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    line-height: 2em;
+}
+.content_table th, .content_table td {
+    text-align: left;
+    padding: 1em;
+    vertical-align: middle;
+}
+
+.content_table thead{
+    font-weight: 500;
+}
+.content_table thead {
+    background-color: #F3E7D2;
+    color: #5d6881;
+}
+.content_table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content_table .results{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.links_flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.links_flex img, .la-calendar-icons
+{
+    width: 1.5em;
+    height: 1.5em;
+    margin:2px;
+}
+
+@media (max-width: 680px) {
+    .content_table
+    {
+        font-size: 0.5rem;
+    }
+  }
+  
